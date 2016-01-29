@@ -1,0 +1,33 @@
+{
+  "generation": [
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationProject",
+      "templateVersion": "1.32.0",
+      "dateTimeStamp": "Wed, 27 Jan 2016 10:23:11 GMT"
+    },
+    {
+      "templateId": "servicecatalog.connectivityComponent",
+      "templateVersion": "0.0.0",
+      "dateTimeStamp": "Wed, 27 Jan 2016 10:29:44 GMT"
+    },
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 28 Jan 2016 08:45:15 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/ZBC_DUMMY_SRV/",
+    "metadataFilePath": "webapp/localService/metadata.xml",
+    "loadJSONFiles": true,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  }
+}

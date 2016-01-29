@@ -1,0 +1,30 @@
+<mvc:View 
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	controllerName="sap.training.smartcontrols.controller.SmartTable"
+	xmlns:smartFilterBar="sap.ui.comp.smartfilterbar"
+	xmlns:smartTable="sap.ui.comp.smarttable">
+	<smartFilterBar:SmartFilterBar 
+		id="idSmartFilterBar"
+		entityType="Product">
+		<smartFilterBar:controlConfiguration>
+			<smartFilterBar:ControlConfiguration
+				key="Category" visibleInAdvancedArea="true"
+				preventInitialDataFetchInValueHelpDialog="false">
+			</smartFilterBar:ControlConfiguration>
+		</smartFilterBar:controlConfiguration>
+	</smartFilterBar:SmartFilterBar>
+	<smartTable:SmartTable 
+		id="isSmartTable_ResponsiveTable"
+		smartFilterId="idSmartFilterBar" 
+		tableType="ResponsiveTable" 
+		editable="false"
+		entitySet="Products" 
+		useVariantManagement="false"
+		useTablePersonalisation="false"
+		header="Products" 
+		showRowCount="true"
+		useExportToExcel="false" 
+		enableAutoBinding="true">
+	</smartTable:SmartTable>
+</mvc:View>

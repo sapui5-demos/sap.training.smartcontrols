@@ -1,0 +1,12 @@
+<mvc:View controllerName="sap.training.smartcontrols.controller.Main" xmlns:core="sap.ui.core" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<ComboBox selectionChange="onSelectionChange" width="50%">
+		<items>
+			<core:ListItem key="SmartForm" text="Smart Form"/>
+			<core:ListItem key="SmartTable" text="Smart Filter Bar and Smart Table"/>
+		</items>
+	</ComboBox>
+	<Panel id="idViewPanel" height="1100px">
+		
+	</Panel>
+</mvc:View>
