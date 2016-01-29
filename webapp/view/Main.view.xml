@@ -4,9 +4,9 @@
 		<items>
 			<core:ListItem key="SmartForm" text="Smart Form"/>
 			<core:ListItem key="SmartTable" text="Smart Filter Bar and Smart Table"/>
+			<core:ListItem key="Personalization" text="Table Personalization"/>
+			<core:ListItem key="VariantManagement" text="Variant Management"/>
 		</items>
 	</ComboBox>
-	<Panel id="idViewPanel" height="1100px">
-		
-	</Panel>
+	<Panel height="1100px" id="idViewPanel"></Panel>
 </mvc:View>
